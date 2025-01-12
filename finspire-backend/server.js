@@ -6,7 +6,7 @@ const adviceRoutes = require('./routes/adviceRoutes');
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3039;
 
 // Explicit CORS configuration
 const corsOptions = {
