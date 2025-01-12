@@ -123,7 +123,7 @@ const FinancialAdvicePage = () => {
   const getAdvice = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('https://finspire-backend.vercel.app/api/advice/financial-strategy', formData);
+      const response = await axios.post('https://ey-fi8h.vercel.app/api/advice/financial-strategy', formData);
       // const response = await axios.post('http://localhost:5000/api/advice/financial-strategy', formData);
       setAdvice(response.data);
     } catch (error) {

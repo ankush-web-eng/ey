@@ -62,7 +62,7 @@ const ProductAdvisor = () => {
     setError(null);
 
     try {
-      const response = await fetch('https://finspire-backend.vercel.app/api/advice/product-advice', {
+      const response = await fetch('https://ey-fi8h.vercel.app/api/advice/product-advice', {
       // const response = await fetch('http://localhost:5000/api/advice/product-advice', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

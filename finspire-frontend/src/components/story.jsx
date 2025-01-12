@@ -116,7 +116,7 @@ const MovieFinancePage = () => {
     const getAdvice = async () => {
         setLoading(true);
         try {
-            const response = await axios.post('https://finspire-backend.vercel.app/api/advice/financial-learning', formData);
+            const response = await axios.post('https://ey-fi8h.vercel.app/api/advice/financial-learning', formData);
             setAdvice(response.data);
         } catch (error) {
             console.error('Error fetching advice:', error);
