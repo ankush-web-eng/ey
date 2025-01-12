@@ -16,7 +16,7 @@ const App = () => {
           <Route path="/suggestion-advisor" element={<SuggestionAdvisor />} />
           <Route path="/pdf-advisor" element={<PdfAdvisor />} />
           <Route path="/finance-in-your-own-way" element={<MovieFinancePage />} />
-          <Route path="/about-us" element={<AboutUs />} />
+          {/* <Route path="/about-us" element={<AboutUs />} /> */}
           <Route path="/" element={<FinancialAdvisorForm />} /> {/* Default route */}
         </Routes>
       </div>
