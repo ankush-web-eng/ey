@@ -16,6 +16,7 @@ const teamMembers = [
         college: 'GLA University, Mathura',
         contact: '+91 6396 055 926',
         role: 'AI Developer',
+        image: '/keshav.jpg',
     },
     {
         name: 'Ankush',
@@ -29,6 +30,7 @@ const teamMembers = [
         college: 'GLA University, Mathura',
         contact: '+91 79065 04145',
         role: 'Machine Learning',
+        image: '/harsh.jpg',
     },
     {
         name: 'Duanshi Chawla',
@@ -41,6 +43,7 @@ const teamMembers = [
         college: 'GLA University, Mathura',
         contact: '+91 81710 55262',
         role: 'Frontend Developer',
+        image: '/saloni.jpg',
     },
 ];
 
