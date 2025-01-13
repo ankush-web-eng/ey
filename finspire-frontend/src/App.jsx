@@ -4,7 +4,7 @@ import FinancialAdvisorForm from './components/FinancialAdvisorForm';
 import SuggestionAdvisor from './components/SuggestionAdvisor';
 import PdfAdvisor from './components/PdfAdvisor';
 import MovieFinancePage from './components/story';
-import AboutUs from './components/AboutUs';
+import AboutUsPage from './components/AboutUs';
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
           <Route path="/suggestion-advisor" element={<SuggestionAdvisor />} />
           <Route path="/pdf-advisor" element={<PdfAdvisor />} />
           <Route path="/finance-in-your-own-way" element={<MovieFinancePage />} />
-          {/* <Route path="/about-us" element={<AboutUs />} /> */}
+          <Route path="/about-us" element={<AboutUsPage />} />
           <Route path="/" element={<FinancialAdvisorForm />} /> {/* Default route */}
         </Routes>
       </div>
