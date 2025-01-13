@@ -8,7 +8,7 @@ import {
     ChevronDown
 } from 'lucide-react';
 
-const defaultImage = "https://avatars.githubusercontent.com/u/72213898?v=4";
+const defaultImage = "https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png";
 
 const teamMembers = [
     {
